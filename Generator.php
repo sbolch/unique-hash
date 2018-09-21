@@ -2,6 +2,9 @@
 
 namespace SubbySnake\UniqueHash;
 
+/**
+ * @deprecated Generator class is deprecated and will be removed in 2.0. Please, use HashGenerator class instead.
+ */
 class Generator {
 
     public static function get() {

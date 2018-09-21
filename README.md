@@ -1,6 +1,6 @@
 # UniqueHash
 
-> Generates a random unique hash with length of 32 characters.
+> Generates a random unique hash.
 
 ## Installation
 
@@ -18,5 +18,6 @@ of the Composer documentation.
 ## Usage
 
 ```php
-$hash = \SubbySnake\UniqueHash\Generator::get();
+$hash = \SubbySnake\UniqueHash\HashGenerator::get();	// random hash with length of 32 characters
+$hash = \SubbySnake\UniqueHash\HashGenerator::get(12);	// random hash with length of 12 characters
 ```
