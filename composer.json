@@ -1,6 +1,6 @@
 {
     "name": "d3vy/unique-hash",
-    "description": "Generates a random unique hash with length of 32 characters.",
+    "description": "Generates a random unique hash.",
     "keywords": ["unique", "hash", "random"],
     "type": "package",
     "license": "MIT",
