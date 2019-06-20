@@ -1,10 +1,10 @@
 {
-    "name": "subbysnake/unique-hash",
+    "name": "d3vy/unique-hash",
     "description": "Generates a random unique hash with length of 32 characters.",
     "keywords": ["unique", "hash", "random"],
     "type": "package",
     "license": "MIT",
-    "homepage": "https://github.com/subbysnake/UniqueHash",
+    "homepage": "https://github.com/d3vy/UniqueHash",
     "authors": [
         {
             "name": "Szabolcs Surányi",
@@ -13,7 +13,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "SubbySnake\\UniqueHash\\": "" }
+        "psr-4": { "d3vy\\UniqueHash\\": "" }
     },
     "require": {
         "php": ">=5.3"

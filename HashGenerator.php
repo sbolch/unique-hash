@@ -1,6 +1,6 @@
 <?php
 
-namespace SubbySnake\UniqueHash;
+namespace d3vy\UniqueHash;
 
 class HashGenerator {
 	/**

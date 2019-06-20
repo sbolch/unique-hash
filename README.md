@@ -8,7 +8,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-$ composer require subbysnake/unique-hash
+$ composer require d3vy/unique-hash
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -18,6 +18,6 @@ of the Composer documentation.
 ## Usage
 
 ```php
-$hash = \SubbySnake\UniqueHash\HashGenerator::get();	// random hash with length of 32 characters
-$hash = \SubbySnake\UniqueHash\HashGenerator::get(12);	// random hash with length of 12 characters
+$hash = \d3vy\UniqueHash\HashGenerator::get();      // random hash with length of 32 characters
+$hash = \d3vy\UniqueHash\HashGenerator::get(12);	// random hash with length of 12 characters
 ```
