@@ -4,7 +4,7 @@
     "keywords": ["unique", "hash", "random"],
     "type": "package",
     "license": "MIT",
-    "homepage": "https://github.com/d3vy/UniqueHash",
+    "homepage": "https://github.com/d3vy/unique-hash",
     "authors": [
         {
             "name": "Szabolcs Surányi",
