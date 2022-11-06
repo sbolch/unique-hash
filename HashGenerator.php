@@ -1,13 +1,14 @@
 <?php
 
-namespace d3vy\UniqueHash;
+namespace sbolch\UniqueHash;
+
+use Exception;
 
 class HashGenerator {
-	/**
-	 * @param int $length
-	 * @return string
-	 */
-    public static function get($length = 32) {
+    /**
+     * @throws Exception
+     */
+    public static function get(int $length = 32): string {
     	if(function_exists('random_bytes')) {
     		$str = bin2hex(random_bytes(ceil($length / 2)));
     	} elseif(function_exists('openssl_random_pseudo_bytes')) {
